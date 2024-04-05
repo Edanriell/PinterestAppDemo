@@ -1,0 +1,13 @@
+<template>
+	<main>
+		<Header />
+		<section class="mt-20">
+			<Cards />
+		</section>
+	</main>
+</template>
+
+<script setup lang="ts">
+	import Header from "../organisms/Header.vue";
+	import Cards from "../organisms/Cards.vue";
+</script>

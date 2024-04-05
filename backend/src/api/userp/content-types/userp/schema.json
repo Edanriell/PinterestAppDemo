@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usersp",
+  "info": {
+    "singularName": "userp",
+    "pluralName": "usersp",
+    "displayName": "Users",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
